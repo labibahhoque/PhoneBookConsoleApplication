@@ -50,7 +50,6 @@
     <Compile Include="IContactDisplayer.cs" />
     <Compile Include="IContactSearch.cs" />
     <Compile Include="IPhoneBook.cs" />
-    <Compile Include="Phonebook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
