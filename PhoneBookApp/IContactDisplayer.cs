@@ -8,12 +8,11 @@ namespace PhoneBookApp
 {
     public interface IContactDisplayer
     {
-        
-
-         void DisplayAllContacts();
-
+        void DisplayAllContacts();
+    }
+}
         
          
        
-    }
-}
+
+

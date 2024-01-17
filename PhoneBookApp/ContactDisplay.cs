@@ -14,11 +14,7 @@ namespace PhoneBookApp
         private Contact contact { get; set; }
 
         string filePath = @"C:\\Users\\User\\source\\repos\\PhoneBookApp\\PhoneBookApp\\Contacts.txt";
-        private void DisplayContactDetails(Contact contact)
-        {
-            Console.WriteLine($"Contact:{contact.Name},{contact.Number}");
-        }
-       
+     
         public void DisplayAllContacts()
         {
 
