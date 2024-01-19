@@ -1,5 +1,2 @@
-Name:Rifah,Number:01987654321
-Name:Antara,Number:01963633838
-Name:Rhydita,Number:01654321789
-Name:Faiza,Number:01987654551
-
+Antara,0198765432
+Rifah,01912563456

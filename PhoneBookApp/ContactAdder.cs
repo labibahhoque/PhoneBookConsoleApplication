@@ -29,7 +29,7 @@ namespace PhoneBookApp
                 {
                     foreach (var contact in contacts)
                     {
-                        writer.WriteLine($"Name:{contact.Name},Number:{contact.Number}");
+                        writer.WriteLine($"{contact.Name},{contact.Number}");
                     }
                 }
 
