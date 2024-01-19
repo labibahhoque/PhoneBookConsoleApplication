@@ -27,7 +27,7 @@ namespace PhoneBookApp
                     Console.WriteLine("No contacts found in the file.");
                     return;
                 }
-                Console.WriteLine(lines.Length);
+                Console.WriteLine($"Total Contacts:{lines.Length}");
                 Console.WriteLine("Contacts from File:");
                 foreach (var line in lines)
                 {
