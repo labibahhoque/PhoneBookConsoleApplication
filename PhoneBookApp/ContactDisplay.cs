@@ -18,8 +18,8 @@ namespace PhoneBookApp
         public void DisplayAllContacts()
         {
 
-            try
-            {
+            
+            
                 var lines = File.ReadAllLines(filePath);
 
                 if (lines.Length == 0)
@@ -34,11 +34,8 @@ namespace PhoneBookApp
                     Console.WriteLine(line);
              
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
+            
+           
         }
 
 

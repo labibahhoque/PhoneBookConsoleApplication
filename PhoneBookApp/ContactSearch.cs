@@ -14,8 +14,8 @@ namespace PhoneBookApp
         string filePath = @"C:\\Users\\User\\source\\repos\\PhoneBookApp\\PhoneBookApp\\Contacts.txt";
         public void SearchContact(string searchPhrase)
         {
-            try
-            {
+           
+            
                
                 string[] lines = File.ReadAllLines(filePath);
 
@@ -49,11 +49,8 @@ namespace PhoneBookApp
                 {
                     Console.WriteLine("No matching contacts found.");
                 }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
+            
+            
         }
     }
     

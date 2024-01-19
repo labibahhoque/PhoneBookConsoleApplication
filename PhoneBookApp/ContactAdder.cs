@@ -23,8 +23,7 @@ namespace PhoneBookApp
         string filePath= @"C:\\Users\\User\\source\\repos\\PhoneBookApp\\PhoneBookApp\\Contacts.txt";
         public void SaveContactsToFile(string filePath)
         {
-            try
-            {
+            
                 using (StreamWriter writer = new StreamWriter(filePath))
                 {
                     foreach (var contact in contacts)
@@ -34,16 +33,13 @@ namespace PhoneBookApp
                 }
 
                 Console.WriteLine("Contacts saved to the file successfully.");
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-            }
+            
+           
         }
         private void LoadContactsFromFile(string filePath)
         {
-            try
-            {
+            
+            
                 string[] lines = File.ReadAllLines(filePath);
                 contacts.Clear(); 
 
@@ -58,10 +54,7 @@ namespace PhoneBookApp
                     }
                 }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error loading contacts: {ex.Message}");
-            }
-        }
+           
+           
     }
 }
